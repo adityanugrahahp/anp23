@@ -1,3 +1,5 @@
+RESUME
+
 Software Testing Fundamental
 
 Software testing itu sendiri diartikan sebagai suatu proses analisis yang dilakukan pada suatu software untuk mencegah terjadinya kesalahan dan juga menilai apakah hal-hal yang ada di dalamnya sudah sesuai atau belum.
