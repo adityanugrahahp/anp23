@@ -1,6 +1,6 @@
-RESUME
+# (1) Software Testing as a Career Path & Intro to Testing
 
-Software Testing Fundamental
+## Software Testing Fundamental
 
 Software testing itu sendiri diartikan sebagai suatu proses analisis yang dilakukan pada suatu software untuk mencegah terjadinya kesalahan dan juga menilai apakah hal-hal yang ada di dalamnya sudah sesuai atau belum.
 
@@ -10,7 +10,7 @@ Pada software testing terdapat beberapa jenis tesnya antara lain seperti, functi
 
 Software testing ini juga terdapat levelnya yang pertama adalah unit testing yang dilakukan pada tiap komponen yang ada, kemudian integration testing yang mana dilakukan secara kolaborasi antar fitur, selanjutnya adalah system testing yang mana melakukan test secara kesuluruhan serta melakukan integrasi semua fitur yang ada, dan terakhir adalah acceptance testing yang dilakukan sebelum produk akan diluncurkan.
 
-Software Testing as a Career Path
+## Software Testing as a Career Path
 
 Software tester merupakan seseorang yang melakukan uji coba software yang sedang dibangun untuk mendeteksi terjadinya kesalahan agar dapat segera difix oleh developer. Yang dilakukan antara lain seperti memahami dokumen requirement, kemudian juga membuat test case, kemudian tentunya mencoba hasil dari testing yang sudah dijalani, jika terdapat bug atau error segera lapor ke developer, dan melakukan tes ulang untuk memastikan error atau bug yang ada.
 
