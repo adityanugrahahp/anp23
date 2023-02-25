@@ -23,9 +23,9 @@ Pada git repository ini merupakans suatu wadah untuk menampung folder maupun fil
 Git status disini untuk melihat status pada repository, dapat mengetahui informasi mengenai file yang diubah dan ditambah, dan lainnya. Git add berguna untuk melakukan perubahan pada file ke staging area. Git commit berguna untuk menyimpan perubahan yang sudah dilakukan.
 
 ## Git command push, fetch, pull
-- Git push, untuk mempush perubahan ke remote repo
-- Git fetch, untuk mendapatkan perubahan yang baru dilakukan
-- Git pull, untuk mengambil perubahan terbaru dari remote repo dan merge ke branch
+- Git push, untuk mempush perubahan ke remote repo.
+- Git fetch, untuk mendapatkan perubahan yang baru dilakukan.
+- Git pull, untuk mengambil perubahan terbaru dari remote repo dan merge ke branch.
 
 ## Branch
 Branch pada github dapat digunakan untuk memperbaiki sesuatu yang ada pada branch utama tanpa merubah branch utamanya, jika sudah selesai maka akan dimerge, cara yang dapat dilakukan adalah :
