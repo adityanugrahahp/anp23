@@ -5,7 +5,7 @@
 - Source Code Manager (SCM)
 - Revision Control System (RCS)
 
-## APA ITU GIT?
+## Apa itu GIT?
 Git merupakan version control system (vcs) yang biasa digunakan oleh para pengembang software untuk mengembangkan softwarenya bersama.
 
 ## Sinkronisasi ke remot
@@ -25,7 +25,7 @@ Git status disini untuk melihat status pada repository, dapat mengetahui informa
 ## Git command push, fetch, pull
 - Git push, untuk mempush perubahan ke remote repo
 - Git fetch, untuk mendapatkan perubahan yang baru dilakukan
-- Git pull, untuk mengambil perubahan terbaru dari remote repo dan merge ke branch.
+- Git pull, untuk mengambil perubahan terbaru dari remote repo dan merge ke branch
 
 ## Branch
 Branch pada github dapat digunakan untuk memperbaiki sesuatu yang ada pada branch utama tanpa merubah branch utamanya, jika sudah selesai maka akan dimerge, cara yang dapat dilakukan adalah :
