@@ -29,7 +29,7 @@ Test management tools ada suatu alat untuk mengurus banyak dokumen test case, al
 - Summary
 
 ## Tracking Management Tools
-Jira digunakan untuk bug tracking, issue tracking, dan project management.
+Jira digunakan untuk bug tracking, issue tracking, dan project management
 
 ### Cara membuat proyek pada jira
 - Create project
