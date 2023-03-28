@@ -53,3 +53,21 @@ Automation testing adalah tes yang dijalankan secara otomatis menggunakan alat o
 4. Test Execution Melakukan eksekusi test case yang sudah disusun
 
 5. Maintenance Review dan melakukan perubahan jika diperlukan
+
+## BDD (Behaviour Driven Development)
+BDD dapat membantu kita untuk mengembangkan perangkat lunak menjadi efektif, dan memastikannya bahwa perangkat lunak yang dibangun sudah benar.
+
+## BDD Format
+1. User Story
+2. As a (x) I want (y) So that (z)
+3. Scenario
+4. Given, When, Then
+
+BDD dengan cucumber dibagi menjadi dua scenario yaitu scenario normal dan abnormal. Dapat dilihat pada scenario normal terdapat naratif sedangkan pada abnormal tidak.
+
+## BDD With Cucumber Step
+1. Write Story (Menggunakan sintaks gherkin (given, when, then))
+2. Map Steps to Java (Menkonfigurasi langkah script dan validasinya)
+3. Configure Stories (Menggabungkan story dan step yang ada)
+4. Run Stories (Intellij IDEA, Maven)
+5. View Reports
