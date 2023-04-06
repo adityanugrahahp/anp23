@@ -1,12 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to Digital Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color: #000000;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 50%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        input[type="ad"],
+        textarea {
+            width: 100%;
+            padding: 60px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: rgb(57, 117, 177);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <form>
+        <h1>Welcome to Digital Library</h1>
+        <h2>Create a new member</h2>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        </br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        </br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        </br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+        </br>
+        <br>
+        <label for="address">Address</label>
+
+        <br>
+        <br>
+        <textarea type="text" id="address" name="address" rows="10" cols="40"></textarea>
+        </br>
+        <br>
+        <label for="">Gender</label>
+        <input type="radio" id="male" name="gender" value="male"><label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female"><label for="female">female</label>
+        </br>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+        </br>
+    </form>
 </body>
+
 </html>
