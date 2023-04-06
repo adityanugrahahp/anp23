@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add to Cart","User Successfully add item to cart","SUCCESS","2023-04-06T21:34:40.585455+07:00[Asia/Bangkok]","0.0","9.37"
+"Checkout","User cannot checkout without providing postal code","SUCCESS","2023-04-06T21:34:50.8433021+07:00[Asia/Bangkok]","0.0","0.34"
+"Logout after checkout","Logout after completing checkout","SUCCESS","2023-04-06T21:34:51.2113371+07:00[Asia/Bangkok]","0.0","0.11"
