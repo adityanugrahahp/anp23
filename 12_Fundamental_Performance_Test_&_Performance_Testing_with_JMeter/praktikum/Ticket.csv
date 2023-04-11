@@ -1,0 +1,7 @@
+timeStamp;elapsed;label;responseCode;responseMessage;threadName;dataType;success;failureMessage;bytes;sentBytes;grpThreads;allThreads;URL;Latency;IdleTime;Connect
+1,68119E+12;401;getRequest;200;OK;Thread Group 1-1;text;TRUE;;4757;118;1;1;https://blazedemo.com/;394;0;42
+1,68119E+12;335;/reserve.php-204;200;OK;Thread Group 1-1;text;TRUE;;2429;630;1;1;https://blazedemo.com/reserve.php;332;0;0
+1,68119E+12;355;getPurchase;200;OK;Thread Group 1-1;text;TRUE;;6715;130;1;1;https://blazedemo.com/purchase.php;348;0;0
+1,68119E+12;367;/purchase.php-210;200;OK;Thread Group 1-1;text;TRUE;;2548;688;1;1;https://blazedemo.com/purchase.php;364;0;0
+1,68119E+12;425;getConfirmation;200;OK;Thread Group 1-1;text;TRUE;;5780;134;1;1;https://blazedemo.com/confirmation.php;424;0;0
+1,68119E+12;332;/confirmation.php-242;200;OK;Thread Group 1-1;text;TRUE;;2318;776;1;1;https://blazedemo.com/confirmation.php;330;0;0
