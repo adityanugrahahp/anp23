@@ -22,8 +22,8 @@ public class Post {
     public void sendPostHttpRequest() {
         JSONObject requestBody = new JSONObject();
         requestBody.put("userId", 10);
-        requestBody.put("title", "andira ms");
-        requestBody.put("body", "halo, saya andira mahendra s");
+        requestBody.put("title", "tes");
+        requestBody.put("body", "tes");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString())
                 .post(setPostApiEndpoint());
@@ -37,8 +37,8 @@ public class Post {
     @Step("I receive valid data for new posts")
     public void validateDatanewUser() {
         restAssuredThat(response -> response.body("'userId'", equalTo(10)));
-        restAssuredThat(response -> response.body("'title'", equalTo("andira ms")));
-        restAssuredThat(response -> response.body("'body'", equalTo("halo, saya andira mahendra s")));
+        restAssuredThat(response -> response.body("'title'", equalTo("tes")));
+        restAssuredThat(response -> response.body("'body'", equalTo("tes")));
     }
     //// Negative
 
