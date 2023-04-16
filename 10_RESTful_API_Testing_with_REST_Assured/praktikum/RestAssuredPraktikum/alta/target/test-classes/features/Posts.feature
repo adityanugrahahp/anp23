@@ -17,6 +17,7 @@ Feature: Posts
         And I receive nothing from the page
 
     Scenario: POST - As an admin I have be able to create new posts
+    Scenario: POST - As an admin I have be able to create new posts
         Given I set POST api endpoints
         When I send POST HTTP request
         Then I receive valid HTTP response code 201
