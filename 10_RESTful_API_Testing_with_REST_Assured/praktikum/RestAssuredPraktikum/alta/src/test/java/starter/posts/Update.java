@@ -22,8 +22,8 @@ public class Update {
     @Step("I send PUT HTTP request")
     public void sendPutHttpRequest() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("title", "my name is andira ms");
-        requestBody.put("body", "Ini sudah diubah");
+        requestBody.put("title", "tes");
+        requestBody.put("body", "tes");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString())
                 .put(setPutApiEndpoints());
@@ -31,8 +31,8 @@ public class Update {
 
     @Step("I receive valid data for update posts")
     public void validateUpdateUser() {
-        restAssuredThat(response -> response.body("'title'", equalTo("my name is andira ms")));
-        restAssuredThat(response -> response.body("'body'", equalTo("Ini sudah diubah")));
+        restAssuredThat(response -> response.body("'title'", equalTo("tes")));
+        restAssuredThat(response -> response.body("'body'", equalTo("tes")));
     }
 
     //// Negative
