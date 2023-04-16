@@ -21,40 +21,40 @@ HTML adalah singkatan dari Hypertext Markup Language, HTML ini berguna sebagai s
 - DLL
 
 ## Dokumentasi HTML
-- <! DOCTYPE html>, berguna untuk mendefinisikan dokumen sebagai HTML5
-- <html>, berguna sebagai elemen root pada suatu halaman HTML
-- <head>, berguna untuk memberi informasi meta tentang dokumen
-- <title>, berguna untuk menentukan judul untuk dokumen
-- <body>, berisi konten halaman yang terlihat
+- &lt;! DOCTYPE html&gt;, berguna untuk mendefinisikan dokumen sebagai HTML5
+- &lt;html&gt;, berguna sebagai elemen root pada suatu halaman HTML
+- &lt;head&gt;, berguna untuk memberi informasi meta tentang dokumen
+- &lt;title&gt;, berguna untuk menentukan judul untuk dokumen
+- &lt;body&gt;, berisi konten halaman yang terlihat
 
 ## Tag Heading and Paragraph
-- <h1> - <h6> berguna sebagai heading pada halaman website
-- <p> berguna untuk memisahkan paragraph
+- &lt;h1&gt; - &lt;h6&gt; berguna sebagai heading pada halaman website
+- &lt;p&gt; berguna untuk memisahkan paragraph
 
 ## Styling pada Paragraph
-- <strong> untuk membuat teks tebal
-- <em> untuk membuat teks miring
-- <s> untuk membuat teks garis coret
-- <br> untuk line break membuat garis baru
+- &lt;strong&gt; untuk membuat teks tebal
+- &lt;em&gt; untuk membuat teks miring
+- &lt;s&gt; untuk membuat teks garis coret
+- &lt;br&gt; untuk line break membuat garis baru
 
 ## List HTML
-- Ordered List, list yang berurut (<ol>)
-- Unordered List, list yang tidak berurut (<ul>)
+- Ordered List, list yang berurut (&lt;ol&gt;)
+- Unordered List, list yang tidak berurut (&lt;ul&gt;)
 
-untuk pendeklarasiannya dapat menggunakan <li>
+untuk pendeklarasiannya dapat menggunakan &lt;li&gt;
 
 ## CSS
 CSS adalah singkatan dari Cascading Style Sheet, yang berguna untuk menghias halaman web, dapat menambahkan warna, font, background, dan lainnnya, kemudian juga dapat mengatur posisi pada halaman web seperti float, align, display, dan lainnya.
 
 ## Tag Table
-Tag table berguna untuk membuat tabel pada halaman website dengan menggunakan tag <table> kemudian untuk barisnya menggunakan <tr> dan kolom menggunakan <td>, dan kolom pada tabel header menggunakan <th>.
+Tag table berguna untuk membuat tabel pada halaman website dengan menggunakan tag &lt;table&gt; kemudian untuk barisnya menggunakan &lt;tr&gt; dan kolom menggunakan &lt;td&gt;, dan kolom pada tabel header menggunakan &lt;th&gt;.
 
 ## Tag form
-Berguna untuk membuat form pada laman website dengan tag <form>
+Berguna untuk membuat form pada laman website dengan tag &lt;form&gt;
 
 ## Cara menambah file CSS
-1. External CSS, disisipkan dalam tag <head>
-2. Internal CSS, didefinisikan dalam elemen <style>, <head>, <body>
+1. External CSS, disisipkan dalam tag &lt;head&gt;
+2. Internal CSS, didefinisikan dalam elemen &lt;style&gt;, &lt;head&gt;, &lt;body&gt;
 3. Inline CSS, dapat digunakan untuk elemen tunggal pada HTML, untuk menerapkan style yang unik
 
 ## CSS Selector
