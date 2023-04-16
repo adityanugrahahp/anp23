@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Posts","GET - As an admin I shouldn't be able to see posts with invalid url","SUCCESS","2023-04-16T13:44:55.6283834+07:00[Asia/Bangkok]","0.0","0.25"
+"Posts","POST - As an admin I have be able to create new posts","SUCCESS","2023-04-16T13:44:55.8921925+07:00[Asia/Bangkok]","0.0","0.81"
+"Posts","POST - As an admin I shouldn't be able to create new posts with invalid url","SUCCESS","2023-04-16T13:44:56.7219739+07:00[Asia/Bangkok]","0.0","0.2"
+"Posts","PUT - As sn admin I have be able to update existing posts","SUCCESS","2023-04-16T13:44:56.950363+07:00[Asia/Bangkok]","0.0","0.77"
+"Posts","PUT - As an admin I shouldn't be able to update missing posts","SUCCESS","2023-04-16T13:44:57.7319166+07:00[Asia/Bangkok]","0.0","0.67"
+"Posts","DELETE - As admin I have be able to delete existing posts","SUCCESS","2023-04-16T13:44:58.4120988+07:00[Asia/Bangkok]","0.0","0.66"
+"Posts","DELETE - As admin I shouldn't be able to delete without input which posts","SUCCESS","2023-04-16T13:44:59.0842281+07:00[Asia/Bangkok]","0.0","0.65"

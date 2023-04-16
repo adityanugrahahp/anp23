@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/RESTful_API_Testing.iml" filepath="$PROJECT_DIR$/.idea/RESTful_API_Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alta/alta.iml" filepath="$PROJECT_DIR$/alta/alta.iml" />
+    </modules>
+  </component>
+</project>
