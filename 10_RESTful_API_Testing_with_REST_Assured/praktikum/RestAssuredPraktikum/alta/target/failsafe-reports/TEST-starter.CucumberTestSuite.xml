@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="21.694" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta\target\test-classes;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.22\serenity-rest-assured-3.6.22.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\user\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\user\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-json\4.0.10\groovy-json-4.0.10.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-xml\4.0.10\groovy-xml-4.0.10.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy\4.0.10\groovy-4.0.10.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-core\3.6.21\serenity-core-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-model\3.6.21\serenity-model-3.6.21.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\user\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\user\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\user\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\user\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\user\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\user\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\user\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\user\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\user\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\user\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\user\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.2\byte-buddy-agent-1.14.2.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-reports\3.6.21\serenity-reports-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-stats\3.6.21\serenity-stats-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.21\serenity-reports-configuration-3.6.21.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-all\0.62.2\flexmark-all-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.62.2\flexmark-ext-abbreviation-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.62.2\flexmark-ext-admonition-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.62.2\flexmark-ext-aside-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.62.2\flexmark-ext-attributes-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar;C:\Users\user\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.62.2\flexmark-ext-definition-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.62.2\flexmark-ext-enumerated-reference-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.62.2\flexmark-ext-escaped-character-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.62.2\flexmark-ext-footnotes-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.62.2\flexmark-ext-gfm-issues-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.62.2\flexmark-ext-gfm-users-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.62.2\flexmark-ext-gitlab-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.62.2\flexmark-ext-jekyll-front-matter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.62.2\flexmark-ext-jekyll-tag-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.62.2\flexmark-ext-media-tags-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.62.2\flexmark-ext-macros-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.62.2\flexmark-ext-xwiki-macros-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.62.2\flexmark-ext-toc-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.62.2\flexmark-ext-typographic-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.62.2\flexmark-ext-youtube-embedded-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.62.2\flexmark-html2md-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.62.2\flexmark-pdf-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.0\openhtmltopdf-core-1.0.0.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.0\openhtmltopdf-pdfbox-1.0.0.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.16\pdfbox-2.0.16.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.16\fontbox-2.0.16.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\xmpbox\2.0.16\xmpbox-2.0.16.jar;C:\Users\user\.m2\repository\de\rototor\pdfbox\graphics2d\0.24\graphics2d-0.24.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.0\openhtmltopdf-rtl-support-1.0.0.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\1.0.0\openhtmltopdf-jsoup-dom-converter-1.0.0.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.62.2\flexmark-profile-pegdown-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.62.2\flexmark-youtrack-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\user\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.21\serenity-report-resources-3.6.21.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\user\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\user\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\user\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\user\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\user\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\user\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\user\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\user\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\user\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\user\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\user\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\user\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.21\serenity-cucumber-3.6.21.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\user\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.21\serenity-screenplay-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.21\serenity-screenplay-webdriver-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.21\serenity-ensure-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-junit\3.6.21\serenity-junit-3.6.21.jar;C:\Users\user\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.10\kotlin-stdlib-1.8.10.jar;C:\Users\user\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.10\kotlin-stdlib-common-1.8.10.jar;C:\Users\user\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\user\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\user\AppData\Local\Temp\surefire4000874530226044286 2023-04-16T13-44-42_840-jvmRun1 surefire15582528458499919338tmp surefire_014521730045878967274tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta\target\test-classes;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.22\serenity-rest-assured-3.6.22.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\user\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\user\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-json\4.0.10\groovy-json-4.0.10.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-xml\4.0.10\groovy-xml-4.0.10.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy\4.0.10\groovy-4.0.10.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-core\3.6.21\serenity-core-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-model\3.6.21\serenity-model-3.6.21.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\user\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\user\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\user\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\user\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\user\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\user\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\user\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\user\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\user\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\user\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\user\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.2\byte-buddy-agent-1.14.2.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-reports\3.6.21\serenity-reports-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-stats\3.6.21\serenity-stats-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.21\serenity-reports-configuration-3.6.21.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-all\0.62.2\flexmark-all-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.62.2\flexmark-ext-abbreviation-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.62.2\flexmark-ext-admonition-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.62.2\flexmark-ext-aside-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.62.2\flexmark-ext-attributes-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar;C:\Users\user\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.62.2\flexmark-ext-definition-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.62.2\flexmark-ext-enumerated-reference-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.62.2\flexmark-ext-escaped-character-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.62.2\flexmark-ext-footnotes-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.62.2\flexmark-ext-gfm-issues-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.62.2\flexmark-ext-gfm-users-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.62.2\flexmark-ext-gitlab-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.62.2\flexmark-ext-jekyll-front-matter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.62.2\flexmark-ext-jekyll-tag-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.62.2\flexmark-ext-media-tags-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.62.2\flexmark-ext-macros-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.62.2\flexmark-ext-xwiki-macros-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.62.2\flexmark-ext-toc-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.62.2\flexmark-ext-typographic-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.62.2\flexmark-ext-youtube-embedded-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.62.2\flexmark-html2md-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.62.2\flexmark-pdf-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.0\openhtmltopdf-core-1.0.0.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.0\openhtmltopdf-pdfbox-1.0.0.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.16\pdfbox-2.0.16.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.16\fontbox-2.0.16.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\xmpbox\2.0.16\xmpbox-2.0.16.jar;C:\Users\user\.m2\repository\de\rototor\pdfbox\graphics2d\0.24\graphics2d-0.24.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.0\openhtmltopdf-rtl-support-1.0.0.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\1.0.0\openhtmltopdf-jsoup-dom-converter-1.0.0.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.62.2\flexmark-profile-pegdown-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.62.2\flexmark-youtrack-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\user\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.21\serenity-report-resources-3.6.21.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\user\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\user\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\user\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\user\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\user\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\user\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\user\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\user\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\user\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\user\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\user\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\user\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.21\serenity-cucumber-3.6.21.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\user\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.21\serenity-screenplay-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.21\serenity-screenplay-webdriver-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.21\serenity-ensure-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-junit\3.6.21\serenity-junit-3.6.21.jar;C:\Users\user\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.10\kotlin-stdlib-1.8.10.jar;C:\Users\user\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.10\kotlin-stdlib-common-1.8.10.jar;C:\Users\user\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\user\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta\target\alta-1.0-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta\target\test-classes;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.22\serenity-rest-assured-3.6.22.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\user\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\user\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-json\4.0.10\groovy-json-4.0.10.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy-xml\4.0.10\groovy-xml-4.0.10.jar;C:\Users\user\.m2\repository\org\apache\groovy\groovy\4.0.10\groovy-4.0.10.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-core\3.6.21\serenity-core-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-model\3.6.21\serenity-model-3.6.21.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\user\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\user\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\user\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\user\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\user\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\user\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\user\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\user\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\user\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\user\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\user\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\user\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.2\byte-buddy-agent-1.14.2.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-reports\3.6.21\serenity-reports-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-stats\3.6.21\serenity-stats-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.21\serenity-reports-configuration-3.6.21.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-all\0.62.2\flexmark-all-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.62.2\flexmark-ext-abbreviation-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.62.2\flexmark-ext-admonition-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.62.2\flexmark-ext-aside-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.62.2\flexmark-ext-attributes-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar;C:\Users\user\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.62.2\flexmark-ext-definition-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.62.2\flexmark-ext-enumerated-reference-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.62.2\flexmark-ext-escaped-character-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.62.2\flexmark-ext-footnotes-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.62.2\flexmark-ext-gfm-issues-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.62.2\flexmark-ext-gfm-users-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.62.2\flexmark-ext-gitlab-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.62.2\flexmark-ext-jekyll-front-matter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.62.2\flexmark-ext-jekyll-tag-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.62.2\flexmark-ext-media-tags-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.62.2\flexmark-ext-macros-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.62.2\flexmark-ext-xwiki-macros-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.62.2\flexmark-ext-toc-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.62.2\flexmark-ext-typographic-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.62.2\flexmark-ext-youtube-embedded-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.62.2\flexmark-html2md-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.62.2\flexmark-pdf-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.0\openhtmltopdf-core-1.0.0.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.0\openhtmltopdf-pdfbox-1.0.0.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\pdfbox\2.0.16\pdfbox-2.0.16.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\fontbox\2.0.16\fontbox-2.0.16.jar;C:\Users\user\.m2\repository\org\apache\pdfbox\xmpbox\2.0.16\xmpbox-2.0.16.jar;C:\Users\user\.m2\repository\de\rototor\pdfbox\graphics2d\0.24\graphics2d-0.24.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.0\openhtmltopdf-rtl-support-1.0.0.jar;C:\Users\user\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\1.0.0\openhtmltopdf-jsoup-dom-converter-1.0.0.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.62.2\flexmark-profile-pegdown-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\user\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.62.2\flexmark-youtrack-converter-0.62.2.jar;C:\Users\user\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\user\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.21\serenity-report-resources-3.6.21.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\user\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\user\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\user\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\user\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\user\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\user\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\user\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\user\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\user\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\user\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\user\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\user\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\user\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.21\serenity-cucumber-3.6.21.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\user\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.21\serenity-screenplay-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.21\serenity-screenplay-webdriver-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.21\serenity-ensure-3.6.21.jar;C:\Users\user\.m2\repository\net\serenity-bdd\serenity-junit\3.6.21\serenity-junit-3.6.21.jar;C:\Users\user\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.10\kotlin-stdlib-1.8.10.jar;C:\Users\user\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.10\kotlin-stdlib-common-1.8.10.jar;C:\Users\user\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\user\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\user\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M5\surefire-junit-platform-3.0.0-M5.jar;C:\Users\user\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="webdriver.base.url" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="user.dir" value="C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\xampp\php;C:\composer;C:\hadoop\bin;C:\hadoop\sbin;C:\Program Files\nodejs\;D:\apache-maven-3.9.1\bin;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\user\AppData\Local\Android\Sdk;C:\Users\user\AppData\Local\Android\Sdk\platform-tools;C:\Users\user\scoop\shims;C:\Users\user\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python311\;C:\Users\user\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.1.12-hotspot\bin;C:\Users\user\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\hadoop\bin;C:\Users\user\OneDrive\Documents\Big Data\spark\bin;C:\Users\user\AppData\Local\GitHubDesktop\bin;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\spicetify;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="GET - As an admin I have be able to see posts number 1" classname="Posts" time="6.692">
+    <system-out><![CDATA[13:44:48.234 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+13:44:48.596 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:48.843 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+13:44:48.864 [main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+13:44:48.868 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4343b248
+13:44:48.873 [main] INFO  - Test Suite Started: Posts
+13:44:48.901 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:48.905 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4343b248
+13:44:48.906 [main] INFO  - Test Suite Started: Posts
+
+Scenario: GET - As an admin I have be able to see posts number 1 &amp#27;[90m# src/test/resources/features/Posts.feature:7&amp#27;[0m
+13:44:49.040 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:49.359 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As an admin I have be able to see posts number 1(posts;get---as-an-admin-i-have-be-able-to-see-posts-number-1)
+--------------------------------------------------------------------------------
+13:44:49.464 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\user\OneDrive\Documents\GitHub\qe_aditya-nugraha-perdana\10_RESTful_API_Testing_with_REST_Assured\praktikum\RESTful_API_Testing\alta\src\test\resources\features\Posts.feature
+13:44:50.327 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setGetApiEndpoints - I set GET api endpoints
+13:44:50.332 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET api endpoints&amp#27;[0m                                  &amp#27;[90m# starter.stepdefinitions.PostsSteps.setGetApiEndpoints()&amp#27;[0m
+13:44:50.347 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setGetHttpRequest - I send GET HTTP request
+13:44:53.524 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Get.setGetHttpRequest - I set GET api endpoints
+13:44:53.524 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET api endpoints
+13:44:54.407 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:54.455 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:54.728 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:54.730 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:54.730 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:54.730 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:54.730 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:54.731 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /posts/1 HTTP/1.1
+13:44:54.731 [main] DEBUG org.apache.http.wire -  >> "GET /posts/1 HTTP/1.1[\r][\n]"
+13:44:54.732 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:54.733 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:54.733 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:54.733 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:54.733 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:54.733 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:54.733 [main] DEBUG org.apache.http.headers - >> GET /posts/1 HTTP/1.1
+13:44:54.733 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:54.733 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:54.733 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:54.733 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:54.733 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:54.764 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:54 GMT[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 999[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1664338334[\r][\n]"
+13:44:54.766 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Cache-Control: max-age=43200[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: HIT[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Age: 24185[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P42lilUXDk0NumT1j1kSzdIMOtYChk6%2FJtUSd5fsUeH6pxnhHXnZFCdIUGbygGZYuQ%2F%2FfBdX4qKlVMWysen0eafId1MrdEOVa6mKYHVqSC132VerJIuPa1VkDMudLrbFqQBYqqbGGGk10OhvEglR"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a76620d504993-SIN[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:54.767 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:54.768 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:44:54.768 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:54 GMT
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:54.768 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:54.768 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:54.768 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 999
+13:44:54.768 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1664338334
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Cache-Control: max-age=43200
+13:44:54.768 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:54.769 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:54.769 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: HIT
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Age: 24185
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P42lilUXDk0NumT1j1kSzdIMOtYChk6%2FJtUSd5fsUeH6pxnhHXnZFCdIUGbygGZYuQ%2F%2FfBdX4qKlVMWysen0eafId1MrdEOVa6mKYHVqSC132VerJIuPa1VkDMudLrbFqQBYqqbGGGk10OhvEglR"}],"group":"cf-nel","max_age":604800}
+13:44:54.769 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:54.769 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a76620d504993-SIN
+13:44:54.769 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+13:44:54.769 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:54.774 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:54.778 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "ca[\r][\n]"
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]U[0x8f]Kj[0x4]A[0xc]C[0xf7]s[\n]"
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "Q[0xeb]l[0xb2][0x9d][0x1b][0xe4][0xe][0xbd]q\[\n]"
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "c[0xe8][0xfa][0x8c][0xcb][0x1e]&[0x84][0xdc]=tC[0x8][0x1]#$[0x90][0x1f][0xe8][0xeb][0x2][0x94]\[0xf4][0xb7]Z[0xae]x}9[0xa2][0xfd][0xd9][0xb0][0xd8]Y[0xae](+{@2[0xf0]!J'[0x9c][0x93][0xfb].[0x81][0xe9][0xe3]a[0x95]=0T[0x85]*a[0xe0]S9#[0xdd]0f[0xd8]8[0xca][0xce][0x1b]{[0xa5][[0x94][0x13][0xfc]>[0xea][0xe7][0xc1][0xbd][0xa7][0x9][0x18]X[0xb9][0xd4][0xa6][0xc5][0xd6][0x1d][0x9c][0x9a]Kz[0x15]BG_[0xbc]g[0xf6]H[0x7][0x9f][0x93][0xd5][0xe2]|[0xd3]l[[0xff][0x87]G[0x1b];W[0x98][0x10][0x19][0xc7][0xdd]S[0x16]b[0x84][0xb4][0xad][0xf7][0xb1][0xc2][0xb3][0xc1]y([0xd7]9[0x89][\r][0xe7]:g[0x3][0x1f][0xec][0xc6][0x80][0xb8][0xde],[0xa8]1[0xca][0xe5][0xfb][0x7][0x15][0xc6][0x93][0xe8]$[0x1][0x0][0x0]"
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+13:44:54.779 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:54.780 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:54.822 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59a5bb61
+13:44:54.822 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:54.849 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send GET HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send GET HTTP request&amp#27;[0m                                   &amp#27;[90m# starter.stepdefinitions.PostsSteps.setGetHttpRequest()&amp#27;[0m
+13:44:54.855 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveValidHttpResponse - I receive valid HTTP response code 200
+13:44:54.883 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveValidHttpResponse()&amp#27;[0m
+13:44:54.888 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveValidDataForDetailUser - I receive valid data for all of the posts
+13:44:55.586 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for all of the posts
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for all of the posts&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveValidDataForDetailUser()&amp#27;[0m
+13:44:55.594 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As an admin I have be able to see posts number 1
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="GET - As an admin I shouldn&apos;t be able to see posts with invalid url" classname="Posts" time="0.275">
+    <system-out><![CDATA[
+Scenario: GET - As an admin I shouldn't be able to see posts with invalid url &amp#27;[90m# src/test/resources/features/Posts.feature:13&amp#27;[0m
+13:44:55.623 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:55.628 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+GET - As an admin I shouldn't be able to see posts with invalid url(posts;get---as-an-admin-i-shouldn-t-be-able-to-see-posts-with-invalid-url)
+--------------------------------------------------------------------------------
+13:44:55.668 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setGetApiEndpoints2 - I set typo GET api endpoints
+13:44:55.669 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set typo GET api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set typo GET api endpoints&amp#27;[0m                                          &amp#27;[90m# starter.stepdefinitions.PostsSteps.setGetApiEndpoints2()&amp#27;[0m
+13:44:55.676 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setGetHttpRequest2 - I send typo GET HTTP request
+13:44:55.678 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Get.setGetHttpRequest2 - I set typo GET api endpoints
+13:44:55.678 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set typo GET api endpoints
+13:44:55.703 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:55.704 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:55.829 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:55.829 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:55.829 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:55.829 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:55.829 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:55.830 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /post/1 HTTP/1.1
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "GET /post/1 HTTP/1.1[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:55.830 [main] DEBUG org.apache.http.headers - >> GET /post/1 HTTP/1.1
+13:44:55.830 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:55.830 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:55.830 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:55.830 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:55.830 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 404 Not Found[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:55 GMT[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "Content-Length: 2[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:55.853 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 999[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681618954[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Cache-Control: max-age=43200[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: HIT[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Age: 8592[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MEbvnxnszV8pdwCp30grPP7Omf5ZjZQpwIVin5DuVl%2F5Cdpocp0LDDB8pLyCIu9K66JSB14KnMf6dctY%2BHz0GwawP0vGjap4ne3yUdHKQ46nnvRGKUMBRHXyxy8AkZbWuEwFCx4PIEx%2B44tZnZWb"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a7668ef186b99-SIN[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:55.854 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+13:44:55.854 [main] DEBUG org.apache.http.headers - << HTTP/1.1 404 Not Found
+13:44:55.854 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:55 GMT
+13:44:55.854 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:55.854 [main] DEBUG org.apache.http.headers - << Content-Length: 2
+13:44:55.854 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:55.854 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:55.854 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:55.855 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 999
+13:44:55.855 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681618954
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Cache-Control: max-age=43200
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:55.855 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:55.855 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: HIT
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Age: 8592
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MEbvnxnszV8pdwCp30grPP7Omf5ZjZQpwIVin5DuVl%2F5Cdpocp0LDDB8pLyCIu9K66JSB14KnMf6dctY%2BHz0GwawP0vGjap4ne3yUdHKQ46nnvRGKUMBRHXyxy8AkZbWuEwFCx4PIEx%2B44tZnZWb"}],"group":"cf-nel","max_age":604800}
+13:44:55.855 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:55.855 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:55.855 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a7668ef186b99-SIN
+13:44:55.855 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:55.856 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:55.856 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:55.856 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:55.857 [main] DEBUG org.apache.http.wire -  << "{}"
+13:44:55.858 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@60fbc34d
+13:44:55.858 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:55.859 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send typo GET HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send typo GET HTTP request&amp#27;[0m                                           &amp#27;[90m# starter.stepdefinitions.PostsSteps.setGetHttpRequest2()&amp#27;[0m
+13:44:55.865 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveInvalidHttpResponse - I receive invalid HTTP response code 404 Not Found
+13:44:55.867 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive invalid HTTP response code 404 Not Found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive invalid HTTP response code 404 Not Found&amp#27;[0m                     &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveInvalidHttpResponse()&amp#27;[0m
+13:44:55.873 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveNothing - I receive nothing from the page
+13:44:55.874 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive nothing from the page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive nothing from the page&amp#27;[0m                                         &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveNothing()&amp#27;[0m
+13:44:55.877 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+GET - As an admin I shouldn't be able to see posts with invalid url
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As an admin I have be able to create new posts" classname="Posts" time="0.829">
+    <system-out><![CDATA[
+Scenario: POST - As an admin I have be able to create new posts &amp#27;[90m# src/test/resources/features/Posts.feature:19&amp#27;[0m
+13:44:55.887 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:55.892 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As an admin I have be able to create new posts(posts;post---as-an-admin-i-have-be-able-to-create-new-posts)
+--------------------------------------------------------------------------------
+13:44:55.922 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setPostApiEndpoints - I set POST api endpoints
+13:44:55.923 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set POST api endpoints&amp#27;[0m                                &amp#27;[90m# starter.stepdefinitions.PostsSteps.setPostApiEndpoints()&amp#27;[0m
+13:44:55.930 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.sendPostHttpRequest - I send POST HTTP request
+13:44:55.944 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.sendPostHttpRequest - I set POST api endpoints
+13:44:55.945 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set POST api endpoints
+13:44:55.983 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:55.984 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:56.065 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:56.065 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:56.065 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:56.065 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:56.065 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:56.065 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /posts HTTP/1.1
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "POST /posts HTTP/1.1[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 71[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> POST /posts HTTP/1.1
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> Content-Length: 71
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:56.066 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:56.066 [main] DEBUG org.apache.http.wire -  >> "{"title":"andira ms","body":"halo, saya andira mahendra s","userId":10}"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 201 Created[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:56 GMT[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "Content-Length: 97[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 999[\r][\n]"
+13:44:56.597 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681627534[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Cache-Control: no-cache[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Access-Control-Expose-Headers: Location[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Location: http://jsonplaceholder.typicode.com/posts/101[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Etag: W/"61-XlmCRjLAUl59sRXFHbhJACo4OpE"[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UemZPgpE%2FHyUYxRbEHN8jslZ90U9BV6gWk59UPpY2%2F%2Bh0ceDmXL1cSZoYUOuK%2B0bEtNUdT5GaLIeeiK9H5AXxizLOdQaCgwgV6HXaW3AFExjoT8sqCLEYnGZZg4ptXF9heUv9sFNuivQZHwFZIUg"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a766a5bcb4912-SIN[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:56.598 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:56.599 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 201 Created
+13:44:56.599 [main] DEBUG org.apache.http.headers - << HTTP/1.1 201 Created
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:56 GMT
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Content-Length: 97
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:56.599 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:56.599 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:56.599 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 999
+13:44:56.599 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681627534
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Cache-Control: no-cache
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Access-Control-Expose-Headers: Location
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Location: http://jsonplaceholder.typicode.com/posts/101
+13:44:56.599 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Etag: W/"61-XlmCRjLAUl59sRXFHbhJACo4OpE"
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:56.599 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UemZPgpE%2FHyUYxRbEHN8jslZ90U9BV6gWk59UPpY2%2F%2Bh0ceDmXL1cSZoYUOuK%2B0bEtNUdT5GaLIeeiK9H5AXxizLOdQaCgwgV6HXaW3AFExjoT8sqCLEYnGZZg4ptXF9heUv9sFNuivQZHwFZIUg"}],"group":"cf-nel","max_age":604800}
+13:44:56.599 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:56.599 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:56.599 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a766a5bcb4912-SIN
+13:44:56.599 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:56.599 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:56.599 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:56.599 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:56.601 [main] DEBUG org.apache.http.wire -  << "{[\n]"
+13:44:56.601 [main] DEBUG org.apache.http.wire -  << "  "title": "andira ms",[\n]"
+13:44:56.601 [main] DEBUG org.apache.http.wire -  << "  "body": "halo, saya andira mahendra s",[\n]"
+13:44:56.601 [main] DEBUG org.apache.http.wire -  << "  "userId": 10,[\n]"
+13:44:56.602 [main] DEBUG org.apache.http.wire -  << "  "id": 101[\n]"
+13:44:56.602 [main] DEBUG org.apache.http.wire -  << "}"
+13:44:56.602 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f8cd5fc
+13:44:56.602 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:56.602 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send POST HTTP request&amp#27;[0m                                 &amp#27;[90m# starter.stepdefinitions.PostsSteps.sendPostHttpRequest()&amp#27;[0m
+13:44:56.606 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveValidHttp201 - I receive valid HTTP response code 201
+13:44:56.607 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 201
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 201&amp#27;[0m                   &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveValidHttp201()&amp#27;[0m
+13:44:56.614 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.validateDataNewUser - I receive valid data for new posts
+13:44:56.702 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for new posts
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for new posts&amp#27;[0m                        &amp#27;[90m# starter.stepdefinitions.PostsSteps.validateDataNewUser()&amp#27;[0m
+13:44:56.707 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As an admin I have be able to create new posts
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="POST - As an admin I shouldn&apos;t be able to create new posts with invalid url" classname="Posts" time="0.219">
+    <system-out><![CDATA[
+Scenario: POST - As an admin I shouldn't be able to create new posts with invalid url &amp#27;[90m# src/test/resources/features/Posts.feature:25&amp#27;[0m
+13:44:56.717 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:56.721 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+POST - As an admin I shouldn't be able to create new posts with invalid url(posts;post---as-an-admin-i-shouldn-t-be-able-to-create-new-posts-with-invalid-url)
+--------------------------------------------------------------------------------
+13:44:56.751 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setPostInvalidApiEndpoints - I set typo POST api endpoints
+13:44:56.751 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set typo POST api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set typo POST api endpoints&amp#27;[0m                                                 &amp#27;[90m# starter.stepdefinitions.PostsSteps.setPostInvalidApiEndpoints()&amp#27;[0m
+13:44:56.758 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setPostHttpRequest - I send typo POST HTTP request
+13:44:56.761 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.setPostInvalidHttpRequest - I set typo POST api endpoints
+13:44:56.761 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set typo POST api endpoints
+13:44:56.787 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:56.787 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:56.862 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:56.862 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:56.862 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:56.862 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:56.862 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:56.862 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /post/1 HTTP/1.1
+13:44:56.862 [main] DEBUG org.apache.http.wire -  >> "GET /post/1 HTTP/1.1[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:56.863 [main] DEBUG org.apache.http.headers - >> GET /post/1 HTTP/1.1
+13:44:56.863 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:56.863 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:56.863 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:56.863 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:56.863 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:56.893 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 404 Not Found[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:56 GMT[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Content-Length: 2[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 997[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681613134[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Cache-Control: max-age=43200[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:56.894 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: HIT[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "Age: 14379[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6p0cNSAQn9nG85bKAYIAQR6o%2Fd2PTc0DlgDmT%2BPTf%2F0kV9bUe0cCcvk5Ou4i3xc3RkgKePPUs9Cipxk9GXxEAzaTi4vvzFZSBQoSFNsB0voegR%2FdAwZSQwrsLCjTOuRRkoLcsVIPMvOuWDXEQuIJ"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a766f59798942-SIN[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:56.895 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:56.896 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Not Found
+13:44:56.896 [main] DEBUG org.apache.http.headers - << HTTP/1.1 404 Not Found
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:56 GMT
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Content-Length: 2
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:56.896 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:56.896 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:56.896 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 997
+13:44:56.896 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681613134
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Cache-Control: max-age=43200
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:56.896 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:56.896 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: HIT
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Age: 14379
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6p0cNSAQn9nG85bKAYIAQR6o%2Fd2PTc0DlgDmT%2BPTf%2F0kV9bUe0cCcvk5Ou4i3xc3RkgKePPUs9Cipxk9GXxEAzaTi4vvzFZSBQoSFNsB0voegR%2FdAwZSQwrsLCjTOuRRkoLcsVIPMvOuWDXEQuIJ"}],"group":"cf-nel","max_age":604800}
+13:44:56.896 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:56.896 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:56.896 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a766f59798942-SIN
+13:44:56.896 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:56.897 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:56.897 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:56.897 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:56.899 [main] DEBUG org.apache.http.wire -  << "{}"
+13:44:56.899 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2078bf0a
+13:44:56.899 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:56.900 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send typo POST HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send typo POST HTTP request&amp#27;[0m                                                  &amp#27;[90m# starter.stepdefinitions.PostsSteps.setPostHttpRequest()&amp#27;[0m
+13:44:56.908 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveInvalidHttpResponse - I receive invalid HTTP response code 404 Not Found
+13:44:56.910 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive invalid HTTP response code 404 Not Found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive invalid HTTP response code 404 Not Found&amp#27;[0m                             &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveInvalidHttpResponse()&amp#27;[0m
+13:44:56.917 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveNothing - I receive nothing from the page
+13:44:56.917 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive nothing from the page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive nothing from the page&amp#27;[0m                                                 &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveNothing()&amp#27;[0m
+13:44:56.924 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+POST - As an admin I shouldn't be able to create new posts with invalid url
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As sn admin I have be able to update existing posts" classname="Posts" time="0.787">
+    <system-out><![CDATA[
+Scenario: PUT - As sn admin I have be able to update existing posts &amp#27;[90m# src/test/resources/features/Posts.feature:31&amp#27;[0m
+13:44:56.938 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:56.950 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As sn admin I have be able to update existing posts(posts;put---as-sn-admin-i-have-be-able-to-update-existing-posts)
+--------------------------------------------------------------------------------
+13:44:57.001 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setPutApiEndpoints - I set PUT api endpoints
+13:44:57.002 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set PUT api endpoints&amp#27;[0m                                     &amp#27;[90m# starter.stepdefinitions.PostsSteps.setPutApiEndpoints()&amp#27;[0m
+13:44:57.010 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.sendPutHttpRequest - I send PUT HTTP request
+13:44:57.016 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Update.sendPutHttpRequest - I set PUT api endpoints
+13:44:57.017 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+13:44:57.046 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:57.046 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:57.113 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:57.114 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:57.114 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:57.114 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:57.114 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:57.114 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /posts/1 HTTP/1.1
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "PUT /posts/1 HTTP/1.1[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 58[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> PUT /posts/1 HTTP/1.1
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> Content-Length: 58
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:57.115 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:57.116 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:57.116 [main] DEBUG org.apache.http.wire -  >> "{"title":"my name is andira ms","body":"Ini sudah diubah"}"
+13:44:57.628 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:57 GMT[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 998[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681627534[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Cache-Control: no-cache[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Etag: W/"4e-NFUI9Zl8ipwqPLfSdm9dHBr4atk"[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sR1D1CboF04Zb9%2FDX03L1Pa%2BfM1WViDDJHIdM2WQpPUxZaPsFyBVOQUi7uNoYh5%2Fd4pBKLoNR1h0BFwlrLuixdiercXydpyiDY47GAu%2F7xB67t79asuWXAzowq9vA2Ly5mcAJWA10o1TfstcwGgF"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a7670e86f4649-SIN[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:57.629 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:44:57.629 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:44:57.629 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:57 GMT
+13:44:57.629 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:57.630 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:57.630 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:57.630 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 998
+13:44:57.630 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681627534
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Cache-Control: no-cache
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:57.630 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Etag: W/"4e-NFUI9Zl8ipwqPLfSdm9dHBr4atk"
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:57.630 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sR1D1CboF04Zb9%2FDX03L1Pa%2BfM1WViDDJHIdM2WQpPUxZaPsFyBVOQUi7uNoYh5%2Fd4pBKLoNR1h0BFwlrLuixdiercXydpyiDY47GAu%2F7xB67t79asuWXAzowq9vA2Ly5mcAJWA10o1TfstcwGgF"}],"group":"cf-nel","max_age":604800}
+13:44:57.630 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:57.630 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a7670e86f4649-SIN
+13:44:57.630 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+13:44:57.630 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:57.630 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:57.630 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:57.630 [main] DEBUG org.apache.http.wire -  << "60[\r][\n]"
+13:44:57.630 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa][0xe6]RPP*[0xc9],[0xc9]IU[0xb2]RP[0xca][0xad]T[0xc8]K[0xcc]MU[0xc8],VH[0xcc]K[0xc9],JT[0xc8]-V[0xd2][0x1])I[0xca]O[0xa9][0x4][0xa9][0xf0][0xcc][0xcb]T(.MI[0xcc]PH[0xc9],MJ[0xcc][0x80][0xc8]f[0xa6](Y)[0x18]r[0xd5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xe9]E[0xef][0xbf]N[0x0][0x0][0x0]"
+13:44:57.630 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:57.631 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+13:44:57.631 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:57.631 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:57.632 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7df5549e
+13:44:57.633 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:57.633 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send PUT HTTP request&amp#27;[0m                                      &amp#27;[90m# starter.stepdefinitions.PostsSteps.sendPutHttpRequest()&amp#27;[0m
+13:44:57.666 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveValidHttpResponse - I receive valid HTTP response code 200
+13:44:57.668 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+13:44:57.668 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:55270<->104.21.54.83:443 closed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m                       &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveValidHttpResponse()&amp#27;[0m
+13:44:57.669 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:55268<->104.21.54.83:443 closed
+13:44:57.673 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:55269<->104.21.54.83:443 closed
+13:44:57.675 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:55272<->104.21.54.83:443 closed
+13:44:57.680 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.validateUpdateUser - I receive valid data for update posts
+13:44:57.710 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data for update posts
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data for update posts&amp#27;[0m                         &amp#27;[90m# starter.stepdefinitions.PostsSteps.validateUpdateUser()&amp#27;[0m
+13:44:57.715 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As sn admin I have be able to update existing posts
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="PUT - As an admin I shouldn&apos;t be able to update missing posts" classname="Posts" time="0.686">
+    <system-out><![CDATA[
+Scenario: PUT - As an admin I shouldn't be able to update missing posts &amp#27;[90m# src/test/resources/features/Posts.feature:37&amp#27;[0m
+13:44:57.725 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:57.731 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+PUT - As an admin I shouldn't be able to update missing posts(posts;put---as-an-admin-i-shouldn-t-be-able-to-update-missing-posts)
+--------------------------------------------------------------------------------
+13:44:57.767 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setPutInvalidApiEndpoints - I set PUT to invalid api endpoints
+13:44:57.768 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT to invalid api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set PUT to invalid api endpoints&amp#27;[0m                              &amp#27;[90m# starter.stepdefinitions.PostsSteps.setPutInvalidApiEndpoints()&amp#27;[0m
+13:44:57.780 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.sendPutHttpRequest - I send PUT HTTP request
+13:44:57.784 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Update.sendPutHttpRequest - I set PUT api endpoints
+13:44:57.784 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set PUT api endpoints
+13:44:57.814 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:57.815 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:57.886 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:57.886 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:57.886 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:57.886 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:57.886 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:57.886 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: PUT /posts/1 HTTP/1.1
+13:44:57.886 [main] DEBUG org.apache.http.wire -  >> "PUT /posts/1 HTTP/1.1[\r][\n]"
+13:44:57.886 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:57.886 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+13:44:57.886 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 58[\r][\n]"
+13:44:57.887 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:57.887 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:57.887 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:57.887 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:57.887 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> PUT /posts/1 HTTP/1.1
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> Content-Length: 58
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:57.887 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:57.887 [main] DEBUG org.apache.http.wire -  >> "{"title":"my name is andira ms","body":"Ini sudah diubah"}"
+13:44:58.389 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:58 GMT[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 997[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681627534[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Cache-Control: no-cache[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Etag: W/"4e-NFUI9Zl8ipwqPLfSdm9dHBr4atk"[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GYltMEk6Z39UPMPcJZInUHZm6WehEvIYyYWvuX%2Brqp5noC28ZrvNn26PcmucjunUoJAQ2y25JUpY74aJLDkcYltraAIIgyBexhYQIlSwVzK9D%2F3k6CDQaOqdjNW35cXl5g2yQcoiZp86LJTd7%2Fvh"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a7675bed56c00-SIN[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:58.390 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:44:58.390 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:58 GMT
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:58.390 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:58.390 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:58.390 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 997
+13:44:58.390 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681627534
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Cache-Control: no-cache
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:58.390 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Etag: W/"4e-NFUI9Zl8ipwqPLfSdm9dHBr4atk"
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:58.390 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GYltMEk6Z39UPMPcJZInUHZm6WehEvIYyYWvuX%2Brqp5noC28ZrvNn26PcmucjunUoJAQ2y25JUpY74aJLDkcYltraAIIgyBexhYQIlSwVzK9D%2F3k6CDQaOqdjNW35cXl5g2yQcoiZp86LJTd7%2Fvh"}],"group":"cf-nel","max_age":604800}
+13:44:58.390 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:58.390 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a7675bed56c00-SIN
+13:44:58.390 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+13:44:58.390 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:58.391 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:58.391 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:58.391 [main] DEBUG org.apache.http.wire -  << "60[\r][\n]"
+13:44:58.391 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa][0xe6]RPP*[0xc9],[0xc9]IU[0xb2]RP[0xca][0xad]T[0xc8]K[0xcc]MU[0xc8],VH[0xcc]K[0xc9],JT[0xc8]-V[0xd2][0x1])I[0xca]O[0xa9][0x4][0xa9][0xf0][0xcc][0xcb]T(.MI[0xcc]PH[0xc9],MJ[0xcc][0x80][0xc8]f[0xa6](Y)[0x18]r[0xd5][0x2][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xe9]E[0xef][0xbf]N[0x0][0x0][0x0]"
+13:44:58.391 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:58.392 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+13:44:58.392 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:58.392 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:58.393 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@63318b56
+13:44:58.393 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:58.394 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send PUT HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send PUT HTTP request&amp#27;[0m                                          &amp#27;[90m# starter.stepdefinitions.PostsSteps.sendPutHttpRequest()&amp#27;[0m
+13:44:58.398 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveHttpResponseCode500 - I receive invalid HTTP response code 500
+13:44:58.399 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive invalid HTTP response code 500
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive invalid HTTP response code 500&amp#27;[0m                         &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveHttpResponseCode500()&amp#27;[0m
+13:44:58.402 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+PUT - As an admin I shouldn't be able to update missing posts
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE - As admin I have be able to delete existing posts" classname="Posts" time="0.669">
+    <system-out><![CDATA[
+Scenario: DELETE - As admin I have be able to delete existing posts &amp#27;[90m# src/test/resources/features/Posts.feature:42&amp#27;[0m
+13:44:58.408 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:58.412 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+DELETE - As admin I have be able to delete existing posts(posts;delete---as-admin-i-have-be-able-to-delete-existing-posts)
+--------------------------------------------------------------------------------
+13:44:58.436 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setDeleteApiEndpoints - I set DELETE api endpoints
+13:44:58.437 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set DELETE api endpoints&amp#27;[0m                                  &amp#27;[90m# starter.stepdefinitions.PostsSteps.setDeleteApiEndpoints()&amp#27;[0m
+13:44:58.443 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.sendDeleteApiEndpoints - I send DELETE HTTP request
+13:44:58.446 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Delete.sendDeleteApiEndpointsRequest - I set DELETE api endpoints
+13:44:58.446 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+13:44:58.460 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:58.460 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:58.534 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:58.534 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:58.534 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:58.534 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:58.535 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:58.535 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /posts/1 HTTP/1.1
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "DELETE /posts/1 HTTP/1.1[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:58.535 [main] DEBUG org.apache.http.headers - >> DELETE /posts/1 HTTP/1.1
+13:44:58.535 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:58.535 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:58.535 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:58.535 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:58.535 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:59 GMT[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Content-Length: 2[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 996[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681627534[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:59.062 [main] DEBUG org.apache.http.wire -  << "Cache-Control: no-cache[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7SSBSA37RSOvPIsSbt5VoP5q1iqtK1g4%2F2clEzoioZObTTh2Z5hWNFx5rcq2hQaPwka%2BOKut%2FOeIyPOqEiGyK0z0Y4seOd8R9xyyuP8fFMXTNxPR5JjPt75iA%2BfXBHunngzBSXPIn06mT7Pk9hgp"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a7679cb3f448e-SIN[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:59.063 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:44:59.063 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:59 GMT
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Content-Length: 2
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:59.063 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:59.063 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:59.063 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 996
+13:44:59.063 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681627534
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Cache-Control: no-cache
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:59.063 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:59.063 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7SSBSA37RSOvPIsSbt5VoP5q1iqtK1g4%2F2clEzoioZObTTh2Z5hWNFx5rcq2hQaPwka%2BOKut%2FOeIyPOqEiGyK0z0Y4seOd8R9xyyuP8fFMXTNxPR5JjPt75iA%2BfXBHunngzBSXPIn06mT7Pk9hgp"}],"group":"cf-nel","max_age":604800}
+13:44:59.063 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:59.063 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:59.063 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a7679cb3f448e-SIN
+13:44:59.063 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:59.063 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:59.063 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:59.063 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:59.065 [main] DEBUG org.apache.http.wire -  << "{}"
+13:44:59.065 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@450f0d89
+13:44:59.065 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:59.065 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send DELETE HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send DELETE HTTP request&amp#27;[0m                                   &amp#27;[90m# starter.stepdefinitions.PostsSteps.sendDeleteApiEndpoints()&amp#27;[0m
+13:44:59.069 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveValidHttpResponse - I receive valid HTTP response code 200
+13:44:59.069 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m                       &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveValidHttpResponse()&amp#27;[0m
+13:44:59.072 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+DELETE - As admin I have be able to delete existing posts
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="DELETE - As admin I shouldn&apos;t be able to delete without input which posts" classname="Posts" time="0.665">
+    <system-out><![CDATA[
+Scenario: DELETE - As admin I shouldn't be able to delete without input which posts &amp#27;[90m# src/test/resources/features/Posts.feature:47&amp#27;[0m
+13:44:59.081 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/user/OneDrive/Documents/GitHub/qe_aditya-nugraha-perdana/10_RESTful_API_Testing_with_REST_Assured/praktikum/RESTful_API_Testing/alta/src/test/resources/features/Posts.feature
+13:44:59.084 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+DELETE - As admin I shouldn't be able to delete without input which posts(posts;delete---as-admin-i-shouldn-t-be-able-to-delete-without-input-which-posts)
+--------------------------------------------------------------------------------
+13:44:59.107 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.setDeleteInvalidApiEndpoints - I set DELETE to invalid api endpoints
+13:44:59.107 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE to invalid api endpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set DELETE to invalid api endpoints&amp#27;[0m                                       &amp#27;[90m# starter.stepdefinitions.PostsSteps.setDeleteInvalidApiEndpoints()&amp#27;[0m
+13:44:59.113 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.sendDeleteApiEndpoints - I send DELETE HTTP request
+13:44:59.115 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Delete.sendDeleteApiEndpointsRequest - I set DELETE api endpoints
+13:44:59.115 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set DELETE api endpoints
+13:44:59.128 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://jsonplaceholder.typicode.com:443
+13:44:59.128 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to jsonplaceholder.typicode.com:443
+13:44:59.208 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:44:59.209 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+13:44:59.209 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:44:59.209 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:44:59.209 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:44:59.209 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: DELETE /posts/1 HTTP/1.1
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "DELETE /posts/1 HTTP/1.1[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "Host: jsonplaceholder.typicode.com[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:44:59.209 [main] DEBUG org.apache.http.headers - >> DELETE /posts/1 HTTP/1.1
+13:44:59.209 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:44:59.209 [main] DEBUG org.apache.http.headers - >> Host: jsonplaceholder.typicode.com
+13:44:59.209 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:44:59.209 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.15.1)
+13:44:59.209 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:44:59.724 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:44:59.724 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 06:44:59 GMT[\r][\n]"
+13:44:59.724 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+13:44:59.724 [main] DEBUG org.apache.http.wire -  << "Content-Length: 2[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Limit: 1000[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Remaining: 995[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "X-Ratelimit-Reset: 1681627534[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Vary: Origin, Accept-Encoding[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Cache-Control: no-cache[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Pragma: no-cache[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Expires: -1[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Via: 1.1 vegur[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y4ktMw7DSgZ7wDL6gsHXX6MdM%2BI32oQ9k9YNgj3MCiuHM3zSCORB09gqbqHMR1uQJljQPHQC7ixeet%2BWvtjBSokmK1BXHMucxvvy89uXYo0kPgdqprKyev5Vv3AXOszue2d0q%2BRpnT6UhhQcjvfH"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b8a767e08b540a8-SIN[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:44:59.725 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:44:59.725 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 06:44:59 GMT
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Content-Length: 2
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+13:44:59.725 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+13:44:59.725 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Limit: 1000
+13:44:59.725 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Remaining: 995
+13:44:59.725 [main] DEBUG org.apache.http.headers - << X-Ratelimit-Reset: 1681627534
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Vary: Origin, Accept-Encoding
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Credentials: true
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Cache-Control: no-cache
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Pragma: no-cache
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Expires: -1
+13:44:59.725 [main] DEBUG org.apache.http.headers - << X-Content-Type-Options: nosniff
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Via: 1.1 vegur
+13:44:59.725 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=y4ktMw7DSgZ7wDL6gsHXX6MdM%2BI32oQ9k9YNgj3MCiuHM3zSCORB09gqbqHMR1uQJljQPHQC7ixeet%2BWvtjBSokmK1BXHMucxvvy89uXYo0kPgdqprKyev5Vv3AXOszue2d0q%2BRpnT6UhhQcjvfH"}],"group":"cf-nel","max_age":604800}
+13:44:59.725 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+13:44:59.725 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+13:44:59.725 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b8a767e08b540a8-SIN
+13:44:59.725 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+13:44:59.725 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:44:59.725 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+13:44:59.725 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:44:59.727 [main] DEBUG org.apache.http.wire -  << "{}"
+13:44:59.727 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@272c5abd
+13:44:59.727 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:44:59.728 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send DELETE HTTP request
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send DELETE HTTP request&amp#27;[0m                                                   &amp#27;[90m# starter.stepdefinitions.PostsSteps.sendDeleteApiEndpoints()&amp#27;[0m
+13:44:59.731 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveValidHttpResponse - I receive valid HTTP response code 200
+13:44:59.731 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m                                       &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveValidHttpResponse()&amp#27;[0m
+13:44:59.735 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PostsSteps.receiveNothing - I receive nothing from the page
+13:44:59.735 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive nothing from the page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive nothing from the page&amp#27;[0m                                               &amp#27;[90m# starter.stepdefinitions.PostsSteps.receiveNothing()&amp#27;[0m
+13:44:59.737 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+DELETE - As admin I shouldn't be able to delete without input which posts
+----------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>
