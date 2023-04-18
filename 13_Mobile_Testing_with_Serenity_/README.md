@@ -5,9 +5,9 @@ Appium merupakan framework automation mobile yang berguna untuk menjalankan peng
 
 ## Appium High Level Architecture
                                 --> XCUITest
-                                |
+                                
 Client --> Appium Server ---------> UIAutomator2 / Espreso
-                                |
+                                
                                 --> WinAppDriver
 
 ## Appium Components
