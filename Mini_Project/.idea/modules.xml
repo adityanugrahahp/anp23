@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mini_Project.iml" filepath="$PROJECT_DIR$/.idea/Mini_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FILE/API/API/minpro/minpro.iml" filepath="$PROJECT_DIR$/FILE/API/API/minpro/minpro.iml" />
+    </modules>
+  </component>
+</project>
