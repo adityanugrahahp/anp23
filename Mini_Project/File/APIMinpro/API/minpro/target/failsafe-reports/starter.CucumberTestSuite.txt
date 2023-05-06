@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 22.555 s <<< FAILURE! - in starter.CucumberTestSuite
+Register.POST - Register with valid data  Time elapsed: 3.445 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+Register.POST - Register with invalid password  Time elapsed: 0.55 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+Register.POST - Register with invalid fullname  Time elapsed: 0.559 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
