@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Categories","POST - Add new category","SUCCESS","2023-05-07T10:06:59.4778882+07:00[Asia/Bangkok]","0.0","0.12"
+"Categories","POST - Add new category without description data payload","SUCCESS","2023-05-07T10:06:59.6017187+07:00[Asia/Bangkok]","0.0","0.11"
+"Categories","POST - Add new category without name data payload","SUCCESS","2023-05-07T10:06:59.7224015+07:00[Asia/Bangkok]","0.0","0.11"
+"Categories","GET - Get list all categories","SUCCESS","2023-05-07T10:06:59.8411862+07:00[Asia/Bangkok]","0.0","0.12"
+"Categories","GET - Get categories by ID","SUCCESS","2023-05-07T10:06:59.9703827+07:00[Asia/Bangkok]","0.0","0.12"
+"Categories","DEL - Delete category with ID","SUCCESS","2023-05-07T10:07:00.0927625+07:00[Asia/Bangkok]","0.0","0.12"
+"Categories","DEL - Delete category with invalid ID","SUCCESS","2023-05-07T10:07:00.2245255+07:00[Asia/Bangkok]","0.0","0.12"
