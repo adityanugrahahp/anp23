@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product","Add to cart by buy a product with login","SUCCESS","2023-05-07T10:12:56.9654593+07:00[Asia/Bangkok]","0.0","7.76"
+"Product","Add to cart by buy a product without login","SUCCESS","2023-05-07T10:13:05.4387189+07:00[Asia/Bangkok]","0.0","0.18"
+"Product","Adding product from cart page","SUCCESS","2023-05-07T10:13:05.6257368+07:00[Asia/Bangkok]","0.0","0.05"
+"Product","Reducing product from cart page","SUCCESS","2023-05-07T10:13:05.6855755+07:00[Asia/Bangkok]","0.0","0.06"
+"Product","View product detail","SUCCESS","2023-05-07T10:13:05.7529086+07:00[Asia/Bangkok]","0.0","0.06"

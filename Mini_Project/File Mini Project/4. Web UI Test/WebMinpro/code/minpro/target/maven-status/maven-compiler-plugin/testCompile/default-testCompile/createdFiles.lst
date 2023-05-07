@@ -1,0 +1,13 @@
+starter\java\RegisterPage.class
+starter\java\HomePage.class
+starter\java\ProductDetailPage.class
+starter\stepdefinitions\CategorySteps.class
+starter\java\LoginPage.class
+starter\stepdefinitions\LoginSteps.class
+starter\java\OrderPage.class
+starter\CucumberTestSuite.class
+starter\java\TransactionPage.class
+starter\stepdefinitions\ProductSteps.class
+starter\stepdefinitions\LogoutSteps.class
+starter\stepdefinitions\RegisterSteps.class
+starter\stepdefinitions\TransactionSteps.class
