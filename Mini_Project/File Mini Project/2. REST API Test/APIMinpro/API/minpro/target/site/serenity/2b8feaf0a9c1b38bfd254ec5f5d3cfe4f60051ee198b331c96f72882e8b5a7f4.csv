@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","POST - Register without fullname","SUCCESS","2023-05-07T10:06:57.9676532+07:00[Asia/Bangkok]","0.0","0.15"
+"Register","POST - Register without email","SUCCESS","2023-05-07T10:06:58.1308591+07:00[Asia/Bangkok]","0.0","0.12"
+"Register","POST - Register without password","SUCCESS","2023-05-07T10:06:58.2599196+07:00[Asia/Bangkok]","0.0","0.15"
+"Register","POST - Register with existed account","SUCCESS","2023-05-07T10:06:58.4204899+07:00[Asia/Bangkok]","0.0","0.1"
