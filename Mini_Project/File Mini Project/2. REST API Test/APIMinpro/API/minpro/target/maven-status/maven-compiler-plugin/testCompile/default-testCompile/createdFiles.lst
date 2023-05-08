@@ -1,4 +1,5 @@
 starter\java\User.class
+starter\java\Hello.class
 starter\java\Comment.class
 starter\java\Product.class
 starter\java\Register.class
@@ -13,5 +14,6 @@ starter\CucumberTestSuite.class
 starter\stepdefinitions\ProductSteps.class
 starter\java\Rating.class
 starter\stepdefinitions\OrderSteps.class
+starter\stepdefinitions\HelloSteps.class
 starter\java\Login.class
 starter\stepdefinitions\RatingSteps.class
