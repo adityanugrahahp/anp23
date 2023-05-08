@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Hello","GET - Get hello with correct endpoints","SUCCESS","2023-05-08T14:49:34.1609242+07:00[Asia/Bangkok]","0.0","2.38"
+"Register","POST - Register with valid data","SUCCESS","2023-05-08T15:04:30.3392652+07:00[Asia/Bangkok]","0.0","2.5"
