@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Comment" skipped="0" tests="3" time="0.28" timestamp="2023-05-08 03:04:36"><testcase name="POST - Post comment"/><testcase name="GET - Get comment with correct endpoints"/><testcase name="Get comment with incorrect endpoints"/></testsuite>
