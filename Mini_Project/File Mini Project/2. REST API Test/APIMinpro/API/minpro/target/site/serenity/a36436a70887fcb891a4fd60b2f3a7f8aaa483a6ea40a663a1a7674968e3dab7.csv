@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Order","POST - Add new orders","SUCCESS","2023-05-08T15:04:35.8337814+07:00[Asia/Bangkok]","0.0","0.08"
-"Order","GET - Get all order","SUCCESS","2023-05-08T15:04:35.9189932+07:00[Asia/Bangkok]","0.0","0.08"
-"Order","GET - Get all order without login","SUCCESS","2023-05-08T15:04:36.0037471+07:00[Asia/Bangkok]","0.0","0.07"
